@@ -22,15 +22,18 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass": [
+        "header__row"
+      ]
     },
     "children": [
       "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
       "search-bar",
-      "locale-switcher",
-      "login",
-      "minicart.v2"
+      "flex-layout.col#spacer",
+      "rich-text#link-one",
+      "minicart.v2",
+      "login"
     ]
   },
   "flex-layout.col#spacer": {
@@ -42,13 +45,11 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["logo"]
+    "children": ["image#logo"]
   },
-  "logo": {
+"image#logo": {
     "props": {
-      "title": "Logo",
-      "href": "/",
-      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
+      "src": "assets/brand/icon-itg.svg",
       "width": "80"
     }
   },
@@ -61,12 +62,15 @@
   "flex-layout.row#mobile": {
     "children": [
       "drawer",
-      "logo",
+      "image#logo",
       "flex-layout.col#spacer",
+      "search-bar",
       "login",
       "minicart.v2"
     ],
     "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
       "blockClass": "main-header-mobile",
       "preventHorizontalStretch": true,
       "preserveLayoutOnMobile": true,
@@ -76,5 +80,14 @@
   "drawer": {
     "children": [
     ]
+  },
+
+  "rich-text#link-one": { 
+    "props": { 
+      "text": "Tendencias de ITGlobers",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-body"
+    }
   }
 }
