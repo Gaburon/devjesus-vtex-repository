@@ -13,6 +13,12 @@
     "children": ["rich-text#1", "rich-text#2", "rich-text#3"]
   },
 
+  "flex-layout.col": {
+    "children": [
+
+    ]
+  },
+
   "rich-text#1": {
     "props": {
       "text": "Test1"
@@ -27,5 +33,11 @@
     "props": {
       "text": "Test3"
     }
-  }
+  },
+  "image#": {
+    "props": {
+      "src": "",
+      
+    }
+  },
 }
