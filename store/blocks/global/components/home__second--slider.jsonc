@@ -8,12 +8,19 @@
     "slider-layout#second__slider": {
         "props": {
             "itemsPerPage": {
-                "desktop": 5,
+                "desktop": 3.07,
                 "tablet": 3,
                 "phone": 1.5
             }
         },
         "children": [
+            "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
+            "flex-layout.col#second__slider--container",
             "flex-layout.col#second__slider--container",
             "flex-layout.col#second__slider--container",
             "flex-layout.col#second__slider--container",

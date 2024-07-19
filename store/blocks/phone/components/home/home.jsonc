@@ -10,7 +10,7 @@
         "props": {
             "images": [
                 {
-                    "image": "/arquivos/phone-banner-image.png",
+                    "image": "/arquivos/banner-hero.png",
                     "description": "Main banner image",
                     "link": {"url": "#"}
                 }
