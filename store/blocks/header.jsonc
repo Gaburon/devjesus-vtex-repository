@@ -45,14 +45,17 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["image#logo"]
+    "children": ["logo"]
   },
-"image#logo": {
+"logo": {
     "props": {
-      "src": "assets/brand/icon-itg.svg",
+      "title": "Logo",
+      "href": "/",
+      "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
       "width": "80"
     }
-  },
+
+},
   "header-layout.mobile": {
     "children": ["sticky-layout#mobile"]
   },
@@ -62,7 +65,7 @@
   "flex-layout.row#mobile": {
     "children": [
       "drawer",
-      "image#logo",
+      "logo",
       "flex-layout.col#spacer",
       "search-bar",
       "login",

@@ -33,11 +33,5 @@
     "props": {
       "text": "Test3"
     }
-  },
-  "image#": {
-    "props": {
-      "src": "",
-      
-    }
-  },
+  }
 }
