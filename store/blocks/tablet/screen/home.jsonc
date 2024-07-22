@@ -2,7 +2,9 @@
     "responsive-layout.tablet#home__section": {
         "title": "Home section tablet",
         "children": [
-            "flex-layout.row#tablet__home-section"
+            "flex-layout.row#desktop_home-section",
+            "rich-text#text-amazing",
+            "flex-layout.row#global__second--slider"
         ]
 
     }

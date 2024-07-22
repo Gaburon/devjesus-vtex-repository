@@ -4,7 +4,7 @@
         "children": [
             // "flex-layout.row#home-section"
             "flex-layout.row#desktop_home-section",
-            "rich-text#text-title",
+            "rich-text#text-amazing",
             "flex-layout.row#global__second--slider"
             
 

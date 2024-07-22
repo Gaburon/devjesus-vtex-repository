@@ -3,11 +3,15 @@
         "title": "Main banner of the page",
         "children": [
             "list-context.image-list#desktop__main-banner"
-        ]
+        ],
+        "props": {
+            "blockClass": "hero--desktop"
+        }
     },
 
     "list-context.image-list#desktop__main-banner": {
         "props": {
+            "height": 422,
             "images": [
                 {
                     "image": "/arquivos/banner-hero-dekstop.png",
